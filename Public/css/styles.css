@@ -152,7 +152,6 @@ section article{
         flex-wrap: wrap;
         justify-content: center;
     }
-
     .articulos{
         display: flex;
         flex-direction: column;
@@ -193,6 +192,10 @@ section article{
     .copyright{
         background-color: white;
     }
+    #iconofooter:hover{
+        color: #EAC926;
+    }
+
 @media (min-width: 360px) {
     .logo{
         width: 150px;
