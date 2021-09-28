@@ -1,0 +1,325 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    background-color: #EAC926;}
+
+main{
+    width: 100%;
+    background-color:#ebebeb;
+}
+nav li{
+    padding: 10px;
+    font-size: 14px;
+}
+nav a{
+    padding: 3px;
+}
+p{
+    font-size: 12px;}
+footer{
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15%;
+    padding-top: 10%;}
+footer i{
+    font-size: 24px;
+}
+#iconofooter{
+    color: #1259c3;
+    margin: 8px;
+}
+section img{
+    max-width: 90%;
+    border-bottom: solid 1px #ebebeb;
+    margin-bottom: 10px;}
+section article{
+    margin: 10px;
+    background-color: white;
+    border: solid 1px #ebebeb;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    }
+
+
+
+    .burger-menu{
+        text-align: center;
+        color:white;
+        background-color: #EAC926;
+        padding-bottom: 20px;
+    }
+    .burger-menu i{
+        border-radius: 20%;
+        padding: 2%;
+        background-color: #03264C;
+    }
+    .logoybusqueda{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .busqueda{
+        background-color: #EAC926;
+        text-align: center;
+        width: 35%;
+        align-self: center;
+        font-size: 14px;
+        border: none;
+        background-color: white;
+        border-radius: 5px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tarjeta{
+        background-color: #EAC926;
+        text-align: center;
+        align-self: center;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .banner1{
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+        position: relative;
+        top: 4px;
+    }
+    .titulares{
+        font-size: 24px;
+        padding-left: 4px;}
+
+    .precios{
+        font-size: 18px;
+        flex-grow: 3;}
+
+    .descuentos{
+        font-size: 16px;
+        color: green;
+        flex-grow: 7;}
+
+    .logo{
+        width: 150px;
+        margin-bottom: 1%;
+        height: 100%;
+        align-self: center;
+    }
+    .fa-truck{
+        color: green;
+        position: absolute;
+        right: 10px;
+        bottom: 1px;
+    }
+    .camion{
+        display: block;
+        position: relative;
+    }
+    .preciodescuento{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        position: relative;
+    }
+    .sectiontop{
+        display: flex;
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sectionbottom{
+        display: flex;
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .articulos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+    }
+    .header-top{
+        display: block;
+        padding: 10px;
+        padding-bottom: 0px;
+    }
+    .header-bottom{
+        color: #222222;
+        width: 100%;
+        display: none;
+        margin-top: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;}
+        
+    
+    .linksflex1{
+        display: inline-block;
+        align-items: flex-start;
+        text-decoration: none;
+        list-style-type: none;
+        padding-inline-start: 0ch;
+        font-weight: 400;
+    }
+    .linksflex2{
+        display: inline-block;
+        align-items: flex-end;
+        text-align: end;
+        text-decoration: none;
+        list-style-type: none;
+        padding-inline-start: 0ch; 
+        font-weight: 400;
+    }
+    .copyright{
+        background-color: white;
+    }
+@media (min-width: 360px) {
+    .logo{
+        width: 150px;
+    }
+    .descripciones {
+        display: none;}
+    .preciodescuento:hover .descripciones{
+        display: block;}
+    main section article i:hover{
+        transform: rotate(-90deg);
+    }
+    .header-top{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .logoybusqueda{
+        display: inline-flexbox;
+        width: 70%;
+    }
+    .header-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;}
+    .linksflex1{
+        display: flex;
+    }
+    .linksflex2{
+        display: flex;
+    }
+    .burger-menu{
+        text-align: center;
+        color: #03264C;
+        display: none;}
+    section article{
+        box-shadow: 0px 0px 0px rgb(100, 100, 100);}
+    .articulos{
+        width: 43%;
+    }
+    nav li{
+        padding: 1px;
+        font-size: 12px;
+        text-align: center;
+    }
+    nav a{
+        color: black;
+    }
+    .tarjeta{
+        align-self: center;
+        text-align: center;
+        width: 30%;
+    }
+}
+@media (min-width: 769px) {
+    nav a{
+        font-size: 14px;
+    }
+    .logo{
+        width: 250px;}
+    .sectiontop{
+        display: flex;}
+
+    .descripciones {
+        display: none;}
+    .articulos:hover .descripciones{
+        display: block;}
+    .articulos:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        transition: box-shadow, 0.5s}
+    main section article i:hover{
+        transform: rotate(-90deg);
+        transition: transform, 0.5s;}
+    .header-top{
+        display: flex;
+        justify-content: space-evenly;}
+    .tarjeta{
+        align-self: center;
+        text-align: center;
+        width: 30%;
+    }
+    .header-bottom{
+        display: flex;
+        flex-direction: row;
+    }
+    .linksflex1{
+        display: flex;}
+    .linksflex2{
+        display: flex;}    
+    .burger-menu{
+        text-align: center;
+        color: #03264C;
+        display: none;}
+    section article{
+        box-shadow: 0px 0px 0px rgb(100, 100, 100);}
+    footer{
+        display: flex;
+        flex-direction: row;
+        padding: 3%;
+    }
+    .footer1{
+        display: flex;
+        flex-direction: column;
+    }
+    .footerposition1{
+        position: flex;
+    }
+    .footerposition2{
+        position: flex;
+    }
+    .footerposition3{
+        position: flex;
+    }
+    .copyright{
+        display: block;
+    }
+    .articulos{
+        width: 22%;
+    }
+    nav li{
+        padding: 1px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .logoybusqueda{
+        display: inline-flexbox;
+        width: 70%;
+    }
+
+    
+
+}

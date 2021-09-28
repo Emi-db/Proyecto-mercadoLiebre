@@ -1,0 +1,18 @@
+.main{
+    text-align: center;
+    display: flex;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    border: 0.1px solid black;
+    align-items: left;
+    padding: 10px;
+}
+.compra-venta{
+    display: flex;
+    flex-direction: row;
+}

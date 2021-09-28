@@ -1,0 +1,27 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    padding: 5px;
+    width: 30%;
+    line-height: 10px;
+}
+.usuario{
+    border-radius: 5px;
+    border: 0px;
+    width: 100%;
+}
+.contraseña{
+    border-radius: 5px;
+    border: 0px;
+    width: 100%;
+}
+.submit{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.submit:hover{
+    background-color: #0022AA;
+}
